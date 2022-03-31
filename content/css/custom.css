@@ -1,0 +1,99 @@
+/***********HEADER start*************/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem 2.4rem;
+  font-weight: 700;
+  background-color: #fdf2e9;
+  align-items: center;
+}
+
+.logo img {
+  width: 12.8rem;
+}
+
+.nav-bar .nav {
+  list-style: none;
+  display: flex;
+  gap: 1.6rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  align-items: center;
+}
+
+.menu:link,
+.menu:visited {
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s;
+}
+
+.menu:hover,
+.menu:active {
+  text-decoration: none;
+  color: #cf711f;
+}
+
+.menu.cta-nav {
+  padding: 0.9rem 1.8rem;
+  color: #fdf2e9;
+}
+
+/***********HEADER end*************/
+
+/***********HERO start*************/
+
+.hero-section {
+  background-color: #fdf2e9;
+  padding: 1.2rem 3.2rem;
+}
+
+.hero {
+  max-width: 130rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 9.6rem;
+  column-gap: 8rem;
+  align-items: center;
+}
+
+.hero-header-description {
+  font-size: 2rem;
+  line-height: 1.5;
+  letter-spacing: 1.3px;
+  margin-bottom: 3.2rem;
+}
+
+.hero-image img {
+  max-width: 100%;
+}
+
+.customers {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.customer-img img {
+  height: 3.2rem;
+  width: 3.2rem;
+  border-radius: 50%;
+  margin-left: -1rem;
+  border: 3px solid #fdf2e9;
+}
+
+.customer-img img:last-child {
+  margin-right: 0;
+}
+
+.customer-desc {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.delivered-meal {
+  color: #cf711f;
+}
+
+/***********HERO end*************/
