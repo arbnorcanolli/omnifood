@@ -5,6 +5,8 @@ Shades: #a15818 #5c320e
 Letter-spacing: -0.5px, 1.3px
 Font-weight: Light:500 ,Medium:600, Bold:700
 Line-Height: Default: 1, -1.05px
+
+Border-radius : 8px
 */
 
 html {
@@ -23,12 +25,27 @@ body {
   font-weight: 400;
 }
 
-.primary-header {
-  font-size: 5.2rem;
+.primary-header,
+.secondary-header,
+.ternary-header {
+  font-weight: 700;
   line-height: 1.05;
   letter-spacing: -0.5px;
-  font-weight: 700;
+}
+
+.ternary-header {
+  font-size: 3rem;
+  margin-bottom: 1.2rem;
+}
+
+.primary-header {
+  font-size: 5.2rem;
   margin-bottom: 2.4rem;
+}
+
+.secondary-header {
+  font-size: 4.4rem;
+  margin-bottom: 1.6rem;
 }
 
 .btn:link,
@@ -80,4 +97,12 @@ body {
 /* margin top large */
 .mt-lg {
   margin-top: 9.6rem;
+}
+
+.pb-lg {
+  padding-bottom: 9.6rem !important;
+}
+
+.pt-lg {
+  padding-top: 9.6rem !important;
 }
