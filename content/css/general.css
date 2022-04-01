@@ -35,11 +35,19 @@ body {
 .btn:visited {
   display: inline-block;
   text-decoration: none;
-  padding: 1.6rem 3.2rem;
-  font-size: 1.8rem;
   font-weight: 600;
   border-radius: 8px;
   transition: all 0.3s ease;
+}
+
+.btn-lg {
+  font-size: 1.8rem;
+  padding: 1.6rem 3.2rem;
+}
+
+.btn-sm {
+  font-size: 1.6rem;
+  padding: 0.8rem 1.6rem;
 }
 
 .btn-primary {
