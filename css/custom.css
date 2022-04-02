@@ -116,13 +116,6 @@
   letter-spacing: 1.5px;
 }
 
-.steps-content {
-  display: grid;
-  justify-items: center;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 6.4rem 4.8rem;
-}
-
 .steps-content img {
   align-self: center;
   width: 35%;
@@ -179,3 +172,28 @@
 }
 
 /* ***********Steps end ********* */
+
+/* ********Feature-In-Start ******** */
+
+.feature-in {
+  text-align: center;
+}
+
+.feature-in-images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feature-in-header .step-header-description {
+  display: block;
+  color: #999;
+  margin-bottom: 3.2rem;
+}
+
+.fi-image {
+  height: 3.2rem;
+  filter: brightness(1%);
+  opacity: 50%;
+}
+
+/* ********Feature-In-End ******** */
