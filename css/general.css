@@ -76,6 +76,10 @@ body {
   transition: all 0.3s ease;
 }
 
+strong {
+  font-weight: 500;
+}
+
 .btn-lg {
   font-size: 1.8rem;
   padding: 1.6rem 3.2rem;

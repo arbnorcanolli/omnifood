@@ -268,8 +268,16 @@
   text-align: center;
 }
 
-.meals-footer {
-  text-align: center;
+.meals-recipe {
+  border-radius: 0.8rem;
+  overflow: hidden;
+  max-width: 70%;
+  box-shadow: 0 0 3px rgb(51, 51, 51, 0.3);
+  justify-self: end;
+}
+
+.meals-recipe.first {
+  justify-self: end;
 }
 
 .meals-recipes {
@@ -290,6 +298,87 @@
 .meals-header span {
   display: block;
   margin-bottom: 2.4rem;
+}
+
+.meals-header {
+  text-align: center;
+  margin-bottom: 8rem;
+}
+
+.meals-body {
+  margin-bottom: 8rem;
+}
+
+/* .meals-header,
+.meals-recipes {
+  text-align: center;
+} */
+
+.labels span {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5rem;
+  color: #333;
+}
+
+.vegetarian {
+  background-color: #52cf66;
+}
+
+.vegan {
+  background-color: #94d82d;
+}
+
+.paleo {
+  background-color: #fcc419;
+}
+
+.labels {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.meals-content .ternary-header {
+  font-size: 1.8rem;
+  margin-bottom: 1.8rem;
+}
+.meals-img img {
+  width: 100%;
+}
+
+.meal-details p,
+.meals-diet p {
+  font-size: 1.8rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.meal-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.meals-content {
+  padding-inline-end: 1.6rem 1.2rem;
+}
+
+.meals-diet div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  font-size: 1.8rem;
+}
+
+ion-icon {
+  color: #cf711f;
+}
+
+.meals-footer {
+  text-align: center;
 }
 
 /* *************Meals End ***************** */
