@@ -19,6 +19,11 @@ html {
   padding: 0;
 }
 
+*:focus {
+  outline: none;
+  box-shadow: 0 0 3px #381d1d;
+}
+
 body {
   font-family: "Rubik", sans-serif;
   color: #333;
@@ -67,6 +72,7 @@ body {
   margin-bottom: 1.6rem;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -82,7 +88,7 @@ strong {
 
 .btn-lg {
   font-size: 1.8rem;
-  padding: 1.6rem 3.2rem;
+  padding: 1rem 3.2rem;
 }
 
 .btn-sm {
