@@ -15,7 +15,7 @@
   }
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 71.875em) {
   .container {
     width: 95%;
     margin: 0 auto !important;
@@ -66,7 +66,7 @@
   }
 }
 
-@media (max-width: 730px) {
+@media (max-width: 45.625em) {
   .hero {
     grid-template-columns: 1fr;
     text-align: center;
@@ -87,7 +87,7 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 43.75em) {
   .container {
     width: 80%;
   }
@@ -101,7 +101,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 37.5em) {
   .pb-lg {
     padding-bottom: 8rem !important;
   }
@@ -118,9 +118,40 @@
     border: 10px sol;
   }
 
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+
   .grid-3 {
     grid-template-columns: 1fr 1fr;
     row-gap: 6.4rem;
+  }
+
+  .grid-sm-6 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 2.4rem;
+  }
+
+  .gallery .grid-3 {
+    row-gap: 1.3em;
+  }
+
+  .fi-image {
+    height: 1.3rem;
+  }
+
+  /* ************** */
+
+  .img-1 {
+    grid-row: 1;
+  }
+
+  .img-3 {
+    grid-row: 5;
+  }
+
+  .steps-content img {
+    width: 30%;
   }
 
   .meals-diet {
@@ -142,5 +173,81 @@
   .footer {
     padding-top: 8rem;
     padding-bottom: 8rem;
+  }
+}
+
+@media (max-width: 33.125em) {
+  .grid-3,
+  .grid-2 {
+    grid-template-columns: 1fr;
+    row-gap: 3.2rem;
+  }
+
+  .meals-recipe.first,
+  .meals-recipe.second {
+    justify-self: unset;
+  }
+
+  .steps-content img {
+    width: 35%;
+  }
+
+  .feature-in-images {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .pb-lg {
+    padding-bottom: 4.8rem !important;
+  }
+
+  .pt-lg {
+    padding-top: 4.8rem !important;
+  }
+
+  .hero {
+    row-gap: 3.2rem;
+  }
+
+  .steps-header {
+    padding: 4.8rem 0 3.2rem 0;
+  }
+
+  .meals-header {
+  }
+
+  .btn {
+    margin-bottom: 4.8rem;
+  }
+  .container.grid-5 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .pricing-body,
+  .features,
+  .customers {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .grid-sm-6 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .cta {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-img {
+    padding-bottom: 70%;
+    grid-row: 1;
+  }
+
+  .form form {
+    grid-template-columns: 1fr;
+  }
+
+  .form label {
+    margin-bottom: 0.8rem;
   }
 }
