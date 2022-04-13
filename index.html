@@ -15,17 +15,17 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header open-nav">
         <div class="logo">
             <img src="./img/omnifood-logo.png" alt="Omnifood logo">
         </div>
         <div class="nav-bar">
             <ul class="nav">
-                <li><a class="menu" href="#">How it works</a></li>
-                <li><a class="menu" href="#">Meals</a></li>
-                <li><a class="menu" href="#">Testimonials</a></li>
-                <li><a class="menu" href="#">Pricing</a></li>
-                <li><a class="btn btn-primary btn-sm cta-nav" href="#">Try for free</a></li>
+                <li><a class="menu" href="#how-it-works">How it works</a></li>
+                <li><a class="menu" href="#meals">Meals</a></li>
+                <li><a class="menu" href="#testimonials">Testimonials</a></li>
+                <li><a class="menu" href="#pricing">Pricing</a></li>
+                <li><a class="btn btn-primary btn-sm cta-nav" href="#try-for-free">Try for free</a></li>
             </ul>
         </div>
 
@@ -79,7 +79,7 @@
             </div>
         </section>
 
-        <section class="steps pb-lg">
+        <section class="steps pb-lg" id="how-it-works">
             <div class="steps-header">
                 <span class="step-header-description">How it works</span>
                 <h2 class="secondary-header">Your daily dose of health in 3 simple steps</h2>
@@ -137,7 +137,7 @@
 
         </div>
 
-        <section class="testimonials-gallery">
+        <section class="testimonials-gallery" id="testimonials">
             <div class=" container grid grid-2 pb-lg pt-lg">
                 <div class="testimonials">
                     <div class="testimonials-header">
@@ -231,7 +231,7 @@
             </div>
         </section>
 
-        <section class="meals container pt-lg pb-lg">
+        <section class="meals container pt-lg pb-lg" id="meals">
             <div class="meals-header">
                 <span class="step-header-description">Meals</span>
 
@@ -343,7 +343,7 @@
             </div>
         </section>
 
-        <section class="pricing-features container pt-lg">
+        <section class="pricing-features container pt-lg" id="pricing">
             <div class="pricing">
                 <div class="pricing-header">
                     <span class="step-header-description">Pricing</span>
@@ -440,7 +440,7 @@
             </div>
         </section>
 
-        <section class="cta container ">
+        <section class="cta container " id="try-for-free">
             <div class="cta-form">
                 <h2 class="secondary-header">Get your first meal for free!</h2>
                 <p>Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or
@@ -484,6 +484,11 @@
     </main>
 
     <footer class=" footer mt-lg pb-lg ">
+        <div class="move-up">
+            <a href="#">
+                <ion-icon name="chevron-up-outline"></ion-icon>
+            </a>
+        </div>
         <div class=" container grid grid-5 grid--footer">
             <div class=" footer-box-1 flex-column ">
                 <img src=" img/omnifood-logo.png " alt=" omnifood-logo " />
@@ -522,6 +527,7 @@
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>

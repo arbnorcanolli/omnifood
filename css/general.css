@@ -11,6 +11,8 @@ Border-radius : 8px
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -28,6 +30,7 @@ body {
   font-family: "Rubik", sans-serif;
   color: #333;
   font-weight: 400;
+  overflow-x: hidden;
 }
 
 .container {

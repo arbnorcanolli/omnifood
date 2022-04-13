@@ -47,13 +47,17 @@
   color: #333;
 }
 
-.mobile-nav-icon [name="close-outline"] {
+.mobile-nav-icon[name="close"] {
   display: none;
 }
 
 .menu.cta-nav {
   padding: 0.9rem 1.8rem;
   color: #fdf2e9;
+}
+
+.mobile-nav {
+  display: none;
 }
 
 /***********HEADER end*************/
@@ -635,6 +639,7 @@ ion-icon {
 
 .footer {
   padding: 0 4rem 0 4rem;
+  position: relative;
 }
 
 .footer-icons {
@@ -673,6 +678,33 @@ ion-icon {
 
 .flex-column .paragraph {
   justify-self: flex-end;
+}
+
+.move-up {
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.move-up a {
+  text-decoration: none;
+}
+
+.move-up a *:focus {
+  outline: none;
+}
+
+.move-up ion-icon {
+  border-radius: 50%;
+  width: 3.2rem;
+  height: 3.2rem;
+
+  padding: 1.5rem;
+  background-color: #fae5d3;
 }
 
 /* *********Footer End************** */
