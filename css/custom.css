@@ -707,4 +707,8 @@ ion-icon {
   background-color: #fae5d3;
 }
 
+.transformi {
+  transform: rotate(360deg);
+}
+
 /* *********Footer End************** */
